@@ -1,0 +1,1 @@
+When a bank customer accesses online banking services with a webbrowser, the client initiates a request to the bank's web server.
