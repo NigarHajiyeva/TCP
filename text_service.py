@@ -96,7 +96,7 @@ class Client:
 
 
 		changed_text = self.sock.recv(self.MAX_BYTES)
-		changed_f = open("XOR" + ".txt", "wb")
+		changed_f = open("new_file" + ".txt", "wb")
 		changed_f.write(changed_text)
 		changed_f.close()
 
