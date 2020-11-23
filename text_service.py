@@ -16,7 +16,7 @@ class Server:
 	
 
 	def start(self):
-		self.sock.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADRR,1)
+		self.sock.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR,1)
 		self.sock.bind((self.interface, self.port))
 		self.sock.listen(1)
 		print('Listening at.....', self.sock.getsockname())
