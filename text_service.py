@@ -12,7 +12,7 @@ class Server:
 	def __init__(self, interface, port):
 		self.interface = interface
 		self.port = port
-		self.sock = socket.socket(socket.AF_INET, sock.SOCK_STREAM)
+		self.sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 	
 
 	def start(self):
